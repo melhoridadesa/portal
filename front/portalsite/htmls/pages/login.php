@@ -12,15 +12,15 @@
     <title>Signin Template for Bootstrap</title>
 
 
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../midia/css/bootstrap.min.css" rel="stylesheet">
 
 
-    <link href="bootstrap/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="../../../midia/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
 
-    <link href="css/padrao.css" rel="stylesheet">
+    <link href="../../../midia/css/padrao.css" rel="stylesheet">
 
-    <script src="bootstrap/js/ie-emulation-modes-warning.js"></script>
+    <script src="../../../midia/js/ie-emulation-modes-warning.js"></script>
 
 
   </head>
