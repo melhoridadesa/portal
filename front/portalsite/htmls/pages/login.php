@@ -12,15 +12,15 @@
     <title>Signin Template for Bootstrap</title>
 
 
-    <link href="../../../midia/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://localhost/Exercicios/portal/front/midia/css/bootstrap.min.css" rel="stylesheet">
 
 
-    <link href="../../../midia/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="http://localhost/Exercicios/portal/front/midia/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
 
-    <link href="../../../midia/css/padrao.css" rel="stylesheet">
+    <link href="http://localhost/Exercicios/portal/front/midia/css/padrao.css" rel="stylesheet">
 
-    <script src="../../../midia/js/ie-emulation-modes-warning.js"></script>
+    <script src="http://localhost/Exercicios/portal/front/midia/js/ie-emulation-modes-warning.js"></script>
 
 
   </head>

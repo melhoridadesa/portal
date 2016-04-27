@@ -3,19 +3,26 @@
 $pagina = "layout/index.php";
 
 if($_GET){
+
 	if(array_key_exists('pagina', $_GET)) {
 		$paginaGET = $_GET['pagina'];
-		$pagina = "pages/{$paginaGET}.php";
+
+		$pagina = "htmls/pages/{$paginaGET}.php";
 	} else {
-		$pagina = "htmls/pages/404.php";		
+		echo "0";
+		$pagina = "htmls/pages/404.php";
+			
 	}
 }
+
 
 $arquivo = "htmls/{$pagina}";
 if(file_exists($arquivo)) {
 	require_once $arquivo;
+
 } else {
+	
+	echo "1";
 	require_once "htmls/pages/404.php";
 }
 
-$page = "cade";

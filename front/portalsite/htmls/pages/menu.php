@@ -15,6 +15,7 @@ function RetornaMenu($mysqli) {
 			}
 			return json_encode($linhas);
 			break;
+			
 	}
 }
 $result = RetornaMenu($mysqli);

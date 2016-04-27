@@ -19,3 +19,5 @@ function Contato($mysqli){
 		break;		
 	}
 }
+$result = Contato($mysqli);
+var_dump($result);
