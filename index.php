@@ -1,7 +1,5 @@
 <?php
-
 $pagina = "portal/index.php";
-
 if($_GET){
 	if(array_key_exists('pagina', $_GET)) {
 		$paginaGET = $_GET['pagina'];
@@ -13,7 +11,7 @@ if($_GET){
 
 $arquivo = "{$pagina}";
 if(file_exists($arquivo)) {
-	require_once $arquivo;
+	require_once "portal/index.php";
 } else {
 	require_once "portal/404.php";
 }
