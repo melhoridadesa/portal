@@ -1,7 +1,7 @@
 var app = angular.module('app', ['ngResource']);
 
 app.controller('contatoCtrl', function ($scope, $http) {
-  $scope.menu = "http://localhost/Exercicios/portal/admin/menu.php";
+  $scope.menu = "http://localhost/Exercicios/portal/front/portalsite/htmls/includes/topo.php";
   $http({
     method: 'GET', url: $scope.menu
   }).success(function(data){

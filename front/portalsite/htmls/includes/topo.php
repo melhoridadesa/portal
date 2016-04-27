@@ -1,3 +1,5 @@
+
+<header ng-controller="contatoCtrl">
 <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -13,30 +15,15 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Principal</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">Sobre Nos</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contato</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="../pages/login.php">Login</a>
-                    </li>
+                <ul ng-repeat="titulos in menu">
+                        <li class="hidden"><li class="page-scroll"><a href="{{titulos.link}}">{{titulos.titulo}}</a></li></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
-  <header>
+
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -50,3 +37,13 @@
             </div>
         </div>
     </header>
+
+
+
+
+	
+
+    
+
+
+

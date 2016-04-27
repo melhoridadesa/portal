@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br" ng-app="app">
 <head>
 	<meta charset="UTF-8">
 	<title>Idoso Portal</title>
@@ -11,7 +11,7 @@
     <title>::Melhor Idade SA::</title>
 
     <link href="http://localhost/Exercicios/portal/front/midia/css/bootstrap.min.css" rel="stylesheet">
-    <link href=".http://localhost/Exercicios/portal/front/midia/css/freelancer.css" rel="stylesheet">
+
 
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -35,16 +35,20 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="http://localhost/Exercicios/portal/front/midia/js/freelancer.js"></script>
+
+
 </head>
 <body id="page-top" class="index">
 
-	<?php include_once "htmls/includes/topo.php"; ?>
-	
+    <?php include_once "htmls/includes/topo.php"; ?>
+    
 
-	<?php include_once "htmls/includes/corpo.php"; ?>
-	
-	<?php include_once "htmls/includes/rodape.php"; ?>
+    <?php include_once "htmls/includes/corpo.php"; ?>
+    
+    <?php include_once "htmls/includes/rodape.php"; ?>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js" ></script>
+    <script src="http://localhost/Exercicios/portal/front/midia/js/controller/controller.js" ></script>
 
 </body>
 </html>

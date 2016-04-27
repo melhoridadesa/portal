@@ -1,6 +1,6 @@
 <?php
 
-$pagina = "layout/index.php";
+$pagina = "htmls/layout/index.php";
 
 if($_GET){
 
@@ -17,7 +17,8 @@ if($_GET){
 
 
 
-$arquivo = "htmls/{$pagina}";
+$arquivo = "{$pagina}";
+
 if(file_exists($arquivo)) {
 	require_once $arquivo;
 
