@@ -16,6 +16,7 @@ if($_GET){
 }
 
 
+
 $arquivo = "htmls/{$pagina}";
 if(file_exists($arquivo)) {
 	require_once $arquivo;
