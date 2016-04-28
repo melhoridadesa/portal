@@ -15,3 +15,4 @@ if(file_exists($arquivo)) {
 } else {
 	require_once "portal/404.php";
 }
+?>
